@@ -1,6 +1,6 @@
 # EfficientNet1D_FRB
 
-This repository contains a code used for detecting fast radio bursts (FRB) on the RATAN-600 radio telescope using 1D convolutional neural network ([paper in preparation]()). The parts are the following.
+This repository contains a code used for detecting fast radio bursts (FRB) on the RATAN-600 radio telescope using 1D convolutional neural network ([https://arxiv.org/abs/2509.11215]()). The parts are the following.
 
 * EfficientNet1D-XS: a 1D conlolutional neural network architecture based on the  EfficientNet family of models (Tan & Le, [2019](https://proceedings.mlr.press/v97/tan19a.html), [2021](https://proceedings.mlr.press/v139/tan21a.html)). Although used here for a particular purpose, the network can be used to classify arbitrary multichannel time series.
 * A code to generate synthetic FRB events. Partially based on [injectfrb](https://github.com/liamconnor/injectfrb).
